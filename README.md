@@ -54,6 +54,9 @@ Otherwise:
 15. Plug in and enjoy
 
 ## BOM
+> [!WARNING]
+> The `bom.csv` in [/production](/production/bom.csv) is strictly for production purposes (the one that you upload to JLCPCB's website), and doesn't contain information like price and notes (like the tables below). If you want the fully detailed boms, including an itemised component bom with prices, and an overall bom including extra parts, go to [/bom](/bom). This so that JLC's tool doesn't get confused with extra fields (using [/production/bom.csv](/production/bom.csv)) and so you can still get the information required by the fallout docs (with [/bom](/bom))
+
 ### Overall
 |Item         |Cost (USD)|Notes               |Link                                                 |
 |-------------|----------|--------------------|-----------------------------------------------------|
